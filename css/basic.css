@@ -1,0 +1,7 @@
+body {
+	background: var(--color-bg);
+	color: var(--color-text);
+	font-family: Inter;
+	font-weight: 800;
+	padding-top: 50px;
+}
