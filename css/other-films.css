@@ -29,6 +29,11 @@
 .other-films__item:nth-child(even) {
 	transform: translateY(50px);
 }
+.other-films__link:hover .other-films__img,
+.other-films__link:focus .other-films__img,
+.other-films__link:active .other-films__img {
+	box-shadow: 0px 0px 10px 10px var(--color-primary);
+}
 .other-films__link,
 .other-films__img {
 	width: 100%;
@@ -36,6 +41,7 @@
 .other-films__img {
 	border-radius: 10px;
 	box-shadow: 0px 0px 10px var(--color-primary);
+	transition: box-shadow 0.2s;
 }
 .other-films__btn {
 	display: block;
